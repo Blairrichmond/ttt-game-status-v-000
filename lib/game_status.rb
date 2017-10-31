@@ -23,3 +23,10 @@ def won?(board)
 end
 false
 end
+
+def full?(board)
+  if board.all? { |fill| fill == ["X"/"O"]  }
+    return true
+  end
+  false
+end
