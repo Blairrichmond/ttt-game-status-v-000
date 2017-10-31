@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |win|
-    if win == WIN_COMBINATIONS[0]
+    if win.is_a(array)
       return true
     else
       return false
