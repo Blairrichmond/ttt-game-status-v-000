@@ -32,7 +32,7 @@ def full?(board)
 end
 
 def draw?(board)
-  if board.all? { |tie| tie == "X" || tie == "O" }
+  if full?(board) && won?(board) == false
     return true
   end
   false
