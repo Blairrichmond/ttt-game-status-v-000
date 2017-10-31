@@ -13,5 +13,9 @@ WIN_COMBINATIONS = [
   [1,4,7],
   [2,5,8]
 ]
-board = [" "," "," "," "," "," "," "," "," "]
-won?(board)
+
+def won?(board)
+  WIN_COMBINATIONS.each do |win|
+    if win.include(" ")
+    
+end
