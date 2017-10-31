@@ -15,11 +15,10 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.each do |win|
-    if win.is_a(array)
-      return true
-    else
-      return false
+  if WIN_COMBINATIONS.all? { |win| win.odd?  }
+    return true
+  else 
+    return false
     end
   end
 end
