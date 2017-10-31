@@ -15,7 +15,6 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.each do |win|
-    if win.include(" ")
-    
+
+
 end
