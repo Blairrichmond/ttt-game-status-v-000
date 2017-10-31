@@ -15,10 +15,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  if WIN_COMBINATIONS.all? { |win| win.odd?  }
-    return true
-  else
-    return false
-    end
-  end
+
 end
