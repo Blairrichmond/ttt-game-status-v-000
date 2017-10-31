@@ -25,7 +25,7 @@ false
 end
 
 def full?(board)
-  if board.all? { |fill| fill == "X"|| fill == "O"]  }
+  if board.all? { |fill| fill == "X"|| fill == "O"] }
     return true
   end
   false
