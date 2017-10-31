@@ -20,5 +20,5 @@ def won?(board)
       return WIN_COMBINATIONS
     else
       return false
-
+    end
 end
